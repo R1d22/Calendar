@@ -1,0 +1,42 @@
+.main-cell {
+    border: 1px solid black;
+    height: 200px; 
+    padding: 15px 10px;
+    flex-direction: column;
+    
+    &:hover {
+        border: 1px solid rgba(0, 94, 255, 0.764)
+    }
+    .top-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+        .todo-list {
+            height: 85%;
+            margin-top: 20px;
+            text-align: center;
+            overflow: auto;
+            .task {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                .task-name {
+                    width: 80%;
+                    cursor: pointer;
+                    text-align: center;
+                    overflow: hidden;
+                    word-break: break-all;
+                }
+                .button-div {
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 20%;
+                }
+            }
+    }
+    
+}

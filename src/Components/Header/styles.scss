@@ -1,0 +1,13 @@
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    .date-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: center;
+    }
+}

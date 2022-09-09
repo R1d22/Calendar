@@ -1,0 +1,24 @@
+.task-form-container {
+    display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        align-content: center;
+    .fields {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between ;
+        align-content: center;
+        .no-border {
+            border: none;
+        }
+    }
+    .center-btn {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+}
