@@ -32,13 +32,18 @@ const TodoForm = ({ title, accept }) => {
                 required
               />
               <Field
-                className="no-border"
+                className="no-border texarea"
                 name="description"
                 as="textarea"
                 placeholder="Description"
               />
               <Field name="date" type="date" className="no-border" required />
-              <Field className="no-border" name="time" type="time" />
+              <Field
+                className="no-border "
+                name="time"
+                type="time"
+                draggable="false"
+              />
             </div>
             <div className="center-btn">
               <Button text={"Submit"} accept={accept} />

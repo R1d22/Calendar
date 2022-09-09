@@ -4,10 +4,8 @@ import moment from "moment";
 
 import { REMOVE_TASK } from "../../../store/actions";
 import ModalTaskInfo from "./ModalTaskInfo/ModalTaskInfo";
-// import crossIcon from "../../../assets/icons/cross.svg";
 import { ReactComponent as CrossIcon } from "../../../assets/icons/cross.svg";
 import "./styles.scss";
-import Modal from "../../Modal/Modal";
 
 const CalendarCell = ({ date, day }) => {
   const dispatch = useDispatch();

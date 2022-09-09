@@ -2,8 +2,8 @@ import { Formik, Field, Form } from "formik";
 import { useDispatch } from "react-redux";
 import moment from "moment";
 import { SELECT_MONTH } from "../../../../../store/actions";
-import "./styles.scss";
 import Button from "../../../../Button/Button";
+import "./styles.scss";
 
 const DateForm = ({ accept }) => {
   const dispatch = useDispatch();

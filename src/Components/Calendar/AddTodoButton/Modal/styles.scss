@@ -11,6 +11,8 @@
     transform: scale(0);
     .modal-content {
         background-color: white;
+        overflow-y: auto;
+        word-break: break-all;
     }
 }
 

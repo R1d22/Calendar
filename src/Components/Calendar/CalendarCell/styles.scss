@@ -13,30 +13,30 @@
         justify-content: space-between;
     }
     
-        .todo-list {
-            height: 85%;
-            margin-top: 20px;
-            text-align: center;
-            overflow: auto;
-            .task {
-                width: 100%;
-                display: flex;
-                justify-content: space-between;
-                .task-name {
-                    width: 80%;
-                    cursor: pointer;
-                    text-align: center;
-                    overflow: hidden;
-                    word-break: break-all;
-                }
-                .button-div {
-                    cursor: pointer;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 20%;
-                }
+    .todo-list {
+        height: 85%;
+        margin-top: 20px;
+        text-align: center;
+        overflow: auto;
+        .task {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .task-name {
+                width: 80%;
+                cursor: pointer;
+                text-align: center;
+                overflow: hidden;
+                word-break: break-all;
             }
+            .button-div {
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20%;
+            }
+        }
     }
     
 }

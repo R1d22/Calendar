@@ -1,5 +1,5 @@
-import "./styles.scss";
 import TodoForm from "./TodoForm/TodoForm";
+import "./styles.scss";
 
 const Modal = ({ active, setActive }) => {
   return (
